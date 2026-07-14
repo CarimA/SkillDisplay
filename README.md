@@ -12,3 +12,4 @@ If you find any strange bugs, please report to me on here or find me on the ACT 
 
 ## Preview
 ![preview.png](./images/preview.png)
+
