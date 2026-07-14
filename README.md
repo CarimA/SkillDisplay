@@ -1,14 +1,11 @@
 ## SkillDisplay
-A simple no-frills ACTWebSocket overlay for showing actions pressed in an overlay window.
+A fork of a simple no-frills ACTWebSocket overlay for showing actions pressed in an overlay window that has been updated to allow for Dawntrail icons to show (and should be futureproofed for Evercold assuming they use action IDs starting with 40xxx).
 
 ## Installation
-Make sure the 'Using BeforeLogLineRead' box is checked in ACTWebSocket then click the 'Add URL' button to add this URL:
-`https://rawrington.github.io/SkillDisplay/`
+An instance can be accessed from `https://skill-display-72553b5a4fc8.herokuapp.com/SkillDisplay/`
+Use `https://skill-display-72553b5a4fc8.herokuapp.com/SkillDisplay/?HOST_PORT=wss://127.0.0.1:10501/` to use with ACT's WSServer.
 
-## Troubleshooting
-I have only tested and confirmed this working on the QT5.8.0 variant of OverlayProc with ACTWebSocket 1.3.3.9 so if you are having trouble please use these versions.
-
-If you find any strange bugs, please report to me on here or find me on the ACT FFXIV discord.
+Make sure the 'Using BeforeLogLineRead' box is checked in ACTWebSocket.
 
 ## Preview
 ![preview.png](./images/preview.png)
